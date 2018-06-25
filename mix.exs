@@ -23,6 +23,8 @@ defmodule Packerbench.MixProject do
     [
       {:benchee, "~> 0.13.0"},
       {:benchee_html, "~> 0.5"},
+      #{:tap, "~> 0.1.5"},
+      {:exprof, "~> 0.2.3"},
       {:packer, path: "../packer"}
     ]
   end
